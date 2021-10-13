@@ -1,0 +1,93 @@
+h1 {
+    color: black;
+    font-size: 48px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(assets/topography.png);
+}
+
+main {
+    padding: 0% 10%;
+    margin-top: 30px;
+}
+
+.navbar {
+    height: 50px;
+    background-color: #333333;
+    box-shadow: 0px -8px 15px 12px black;
+}
+
+li {
+    display: inline;
+}
+
+.navbar a:hover {
+    background-color: rgba(221, 221, 221, 0.486);
+    color: black;
+}
+
+.navelements {
+    list-style-type: none;
+    margin: 0;
+    padding: 12px 0;
+    text-align: center;
+    height: 16px;
+    float: right;
+    margin-right: 10%;
+    font-family: 'Courier Prime', monospace;
+}
+
+.navbar a {
+    color: #ff0099;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+#profession {
+    color: #ff0099;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+}
+
+.content {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.title {
+    text-align: left;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Courier Prime', monospace;
+}
+
+#logo {
+    background-color: #333333;
+    float: left;
+    margin-left: 10%;
+    padding: 8px 0;
+}
+
+#technology {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+
+.separator {
+    text-align: center;
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
